@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Instagram Clone",
+    "description": "A social media platform clone with features like posts, likes, comments, and authentication. Built using MERN stack with image uploads and responsive UI.",
+    "image": "/insta.webp",
+    "github": "https://github.com/vsVaibhav07/Instagram-Clone",
+    "demo": "https://instagram-clone-one-kappa.vercel.app/login",
+    "tech": ["React","Redux","Socket.io", "Node.js", "Express", "MongoDB", "TailwindCSS"]
+  },
+  {
+    "title": "Blog App",
+    "description": "A blogging platform where users can create, edit, and share blogs with markdown support and authentication.",
+    "image": "/blog.webp",
+    "github": "https://github.com/vsVaibhav07/Blog-App",
+    "demo": "https://bloggingweb-vs.vercel.app/",
+    "tech": ["React","Redux", "Node.js", "MongoDB", "Express", "TailwindCSS"]
+  },
+  {
+    "title": "Gap-Shap",
+    "description": "A real-time chat application with one-to-one and group chat functionality using WebSockets.",
+    "image": "/gapshap.webp",
+    "github": "https://github.com/vsVaibhav07/Chat-App",
+    "demo": "https://gapshap-chatapp.vercel.app/login",
+    "tech": ["React", "Redux", "Node.js", "Socket.io", "MongoDB", "TailwindCSS"]
+  },
+  {
+    "title": "Job Portal ",
+    "description": "A full-stack job portal built with MERN stack. Features authentication, job posting, applications, and advanced search filters.",
+    "image": "/jobApp.webp",
+    "github": "https://github.com/vsVaibhav07/Job-Board-App",
+    "demo": "https://job-board-app-nu.vercel.app/",
+    "tech": ["React","Redux", "Node.js", "Express", "MongoDB", "TailwindCSS"]
+  },
+  {
+    "title": "Student Dashboard",
+    "description": "A student dashboard built with React and Firebase for managing courses, assignments, and authentication.",
+    "image": "/stuDash.jpg",
+    "github": "https://github.com/vsVaibhav07/Admin-Dashboard",
+    "demo": "https://youradmindashboard.vercel.app/#/login",
+    "tech": ["React", "Firebase", "TailwindCSS"]
+  },
+  {
+    "title": "Swiggy UI Clone",
+    "description": "A responsive Swiggy UI clone built with React and TailwindCSS, showcasing modern design and layout.",
+    "image": "/swiggy.jpg",
+    "github": "https://github.com/vsVaibhav07/Swiggy-Clone",
+    "demo": "https://swiggy-clone-chi-nine.vercel.app/",
+    "tech": ["React", "TailwindCSS"]
+  }
+]
