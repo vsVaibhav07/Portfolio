@@ -58,7 +58,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full min-w-screen py-20 px-6 md:px-16 text-white flex flex-col md:flex-row items-center gap-12 min-h-screen">
+    <section id="skills" className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full  py-20 px-6 md:px-16 text-white flex flex-col md:flex-row items-center gap-12 min-h-screen">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold font-serif mb-10 text-center">⚡ Skills</h2>
         

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full min-w-screen py-20 px-6 md:px-16 text-white flex flex-col md:flex-row items-center gap-12 min-h-screen">
+    <section id="about" className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full  py-20 px-6 md:px-16 text-white flex flex-col md:flex-row items-center gap-12 min-h-screen">
       
      
       <motion.div

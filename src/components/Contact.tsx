@@ -41,7 +41,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full min-w-screen min-h-screen  bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 py-20 px-6 lg:px-24 text-white flex flex-col items-center"
+      className="w-full  min-h-screen  bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 py-20 px-6 lg:px-24 text-white flex flex-col items-center"
     >
     
       <motion.div
