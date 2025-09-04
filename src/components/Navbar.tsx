@@ -18,7 +18,7 @@ const Navbar = () => {
   const [active, setActive] = useState(navLinks[0].name);
 
   return (
-    <header className="fixed top-0 z-50 w-full  bg-gradient-to-r from-blue-950/90 to-violet-500/40 backdrop-blur-3xl text-white shadow-md">
+    <header className="fixed top-0 z-50 w-full  max-w-screen overflow-hidden bg-gradient-to-r from-blue-950/90 to-violet-500/40 backdrop-blur-3xl text-white shadow-md">
       <div className="flex items-center justify-between container-x py-4 ">
         <h1 className="text-2xl font-serif font-bold">Portfolio</h1>
 
