@@ -13,7 +13,7 @@ export default function Home() {
       
       <div className="bg-blue-950/50   relative rounded-s-sm w-full  h-full min-h-screen   ">
         <Navbar  />
-        <div className="flex flex-col container px-4 sm:px-6 md:px-10 lg:px-20 w-full gap-1">
+        <div className="flex flex-col p-0 m-0 w-full gap-1">
           <Hero  />
           <About  />
           <Skills/>
