@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 z-50 w-full  bg-gradient-to-r from-blue-950/90 to-violet-500/40 backdrop-blur-3xl text-white shadow-md">
-      <div className="flex items-center justify-between px-2 py-4 sm:px-6">
+      <div className="flex items-center justify-between p-4 sm:px-6">
         <h1 className="text-2xl font-serif font-bold">Portfolio</h1>
 
         <nav className="hidden sm:flex space-x-6 text-lg font-medium">
