@@ -9,9 +9,10 @@ import { SiGmail } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <div
-      id="home"
-      className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full  py-20 container-x text-white flex flex-col md:flex-row items-center gap-12 min-h-screen "
+    <section  id="home" className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full">
+       <div
+     
+      className="  py-20 container-x   text-white flex flex-col md:flex-row items-center gap-12 min-h-screen "
     >
       <motion.div
         className="md:w-2/3 flex flex-col h-full items-start font-serif  space-y-4"
@@ -119,5 +120,7 @@ export default function Hero() {
         </div>
       </motion.div>
     </div>
+    </section>
+   
   );
 }

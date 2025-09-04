@@ -9,9 +9,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="w-full  min-h-screen bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 py-20 container-x text-white"
+      className="bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-full "
     >
-      <motion.div
+      <div className="py-20 container-x text-white flex flex-col md:flex-col items-center gap-12 min-h-screen">
+        <motion.div
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -95,6 +96,8 @@ export default function Projects() {
           </motion.div>
         ))}
       </div>
+      </div>
+      
     </section>
   );
 }
