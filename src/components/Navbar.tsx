@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 z-50 w-full  bg-gradient-to-r from-blue-950/90 to-violet-500/40 backdrop-blur-3xl text-white shadow-md">
-      <div className=" mx-auto flex items-center justify-between p-4 sm:px-6">
+      <div className="flex items-center justify-between p-4 sm:px-6">
         <h1 className="text-2xl font-serif font-bold">Portfolio</h1>
 
         <nav className="hidden sm:flex space-x-6 text-lg font-medium">
@@ -61,7 +61,7 @@ const Navbar = () => {
                 <li className="w-full flex" key={link.href}>
                   <Link
                     href={link.href}
-                    className={`hover:scale-105 transition w-full px-9 ${
+                    className={`hover:scale-105 transition w-full text-center ${
                       active === link.name
                         ? "scale-105 shadow-xs shadow-blue-800  bg-blue-950/10 "
                         : ""
