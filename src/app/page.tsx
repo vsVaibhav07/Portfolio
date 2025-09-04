@@ -9,20 +9,13 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-black w-full min-h-screen  text-white  ">
-      
-      <div className="bg-blue-950/50   relative rounded-s-sm w-full  h-full min-h-screen   ">
-        <Navbar  />
-        <div className="flex flex-col p-0 m-0 w-full gap-1">
-          <Hero  />
-          <About  />
-          <Skills/>
-          <Projects/>
-          <Contact/>
-        </div>
-
-      </div>
-
-    </div>
+    <main className="bg-black flex flex-col gap-1 w-full text-white">
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </main>
   );
 }
