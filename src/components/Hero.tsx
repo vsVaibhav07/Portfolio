@@ -54,7 +54,7 @@ export default function Hero() {
             className="border border-white hover:bg-gray-600/60 cursor-pointer text-white font-semibold py-2 px-4 rounded-full"
           >
             <a
-              href="/VaibhavShukla_8957709185.pdf"
+              href="/VAIBHAV_SHUKLA-8957709185.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
