@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SlGlobe } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
 import Image from "next/image";
-import projects from "../projects.json"; // <-- yaha import karo
+import projects from "../projects.json";
 
 export default function Projects() {
   return (
@@ -75,6 +75,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Visit GitHub Repo of ${project.title}`}
                     className="p-2 rounded-full bg-white/20 hover:bg-white/40 transition"
                   >
                     <FiGithub className="w-5 h-5" />
@@ -85,6 +86,7 @@ export default function Projects() {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`View live demo of ${project.title}`}
                     className="p-2 rounded-full bg-white/20 hover:bg-white/40 transition"
                   >
                     

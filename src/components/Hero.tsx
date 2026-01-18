@@ -9,7 +9,7 @@ import { SiGmail } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <section  id="home" className="inset-x-0 bg-gradient-to-br from-blue-950/50 via-blue-800/50 to-blue-950/50 w-screen">
+    <section  id="home" className="inset-x-0 bg-gradient-to-br from-blue-950/50 via-blue-800/50 max-w-screen overflow-hidden to-blue-950/50 w-screen">
        <div
      
       className="w-full  py-20 container-x   text-white flex flex-col md:flex-row items-center gap-12 min-h-screen "
@@ -56,6 +56,7 @@ export default function Hero() {
             <a
               href="/VAIBHAV_SHUKLA-8957709185.pdf"
               target="_blank"
+              aria-label={`download Resume`}
               rel="noopener noreferrer"
             >
               Resume
@@ -85,6 +86,7 @@ export default function Hero() {
             className="bg-white/70 p-1 text-2xl hover:bg-gray-200 rounded-full text-black"
             href="https://github.com/vsVaibhav07"
             target="_blank"
+             aria-label={`Visit my GitHub account`}
             rel="noopener noreferrer"
           >
             <FaGithub  className="cursor-pointer" />
@@ -96,6 +98,7 @@ export default function Hero() {
             href="https://mail.google.com/mail/?view=cm&to=vsvaibhav0704@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+             aria-label={`Send Email`}
           >
             <SiGmail className="cursor-pointer " />
           </motion.a>

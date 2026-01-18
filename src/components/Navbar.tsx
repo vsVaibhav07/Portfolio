@@ -27,6 +27,7 @@ const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
+              aria-label={`Go to ${link.name}`}
               className={`hover:scale-110 transition ${
                 active === link.name
                   ? "scale-110 shadow-xs rounded-sm shadow-blue-700 px-2"

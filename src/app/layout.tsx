@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <link rel="icon" href="favicon.jpg" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth p-0 m-0 w-full inset-0 `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth p-0 m-0 w-full inset-0 overflow-x-hidden `}
       >
         {children}
       </body>

@@ -4,7 +4,7 @@
     "description": "A social media platform clone with features like posts, likes, comments, and authentication. Built using MERN stack with image uploads and responsive UI.",
     "image": "/insta.webp",
     "github": "https://github.com/vsVaibhav07/Instagram-Clone",
-    "demo": "https://instagram-clone-one-kappa.vercel.app/login",
+    "demo": "https://instagram-clone-h3e5.vercel.app/login",
     "tech": ["React","Redux","Socket.io", "Node.js", "Express", "MongoDB", "TailwindCSS"]
   },
   {
